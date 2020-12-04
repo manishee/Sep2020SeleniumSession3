@@ -10,9 +10,6 @@ public class LaunchFirefox {
 		
 		System.setProperty("webdriver.gecko.driver", "/Users/mchugh/Downloads/geckodriver");
 		
-		
-		
-		
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://www.amazon.com");
 		System.out.println(driver.getTitle());

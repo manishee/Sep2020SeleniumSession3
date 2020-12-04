@@ -20,4 +20,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Selenium_Introduction.docx</name>
+			<type>1</type>
+			<location>/Users/mchugh/Desktop/Manish/Sep2020SeleniumSession3/Selenium_Introduction.docx</location>
+		</link>
+	</linkedResources>
 </projectDescription>

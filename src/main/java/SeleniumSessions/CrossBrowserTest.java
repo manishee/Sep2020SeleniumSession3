@@ -18,28 +18,24 @@ public class CrossBrowserTest {
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 		}
-		
 		else if(browser.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver();
 		}
-		
 		else if(browser.equals("safari")) {
 			//WebDriverManager.safaridriver().setup();
 			driver=new SafariDriver();
 		}
-		
 		else {
 			System.out.println("Please pass the correct browser " + browser);
 		}
-		
 		driver.get("http://www.google.com");
 		String title=driver.getTitle();
 		System.out.println(title);
 		
 		String url=driver.getCurrentUrl();
 		System.out.println(url);
-		
+		 
 		driver.quit();
 		
 	}
